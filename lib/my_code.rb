@@ -30,3 +30,13 @@ def map_to_double(arr)
   end
   arr
 end
+
+def map_to_square(arr)
+
+  x = 0
+  while x < arr.length 
+   arr[x]*=arr[x]
+   x += 1 
+  end
+  arr
+end
