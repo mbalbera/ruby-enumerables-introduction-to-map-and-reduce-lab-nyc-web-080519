@@ -10,3 +10,5 @@ def map_to_negativize(arr)
   end
   a 
 end
+
+def map_to_no
