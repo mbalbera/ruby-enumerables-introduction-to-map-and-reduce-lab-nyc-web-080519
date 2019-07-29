@@ -60,3 +60,8 @@ def reduce_to_total(arr, start = 0)
   start
   
 end
+
+def reduce_to_all_true(arr)
+  
+  
+end
