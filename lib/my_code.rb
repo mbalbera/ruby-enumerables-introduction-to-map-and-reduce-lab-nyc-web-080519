@@ -62,11 +62,25 @@ def reduce_to_total(arr, start = 0)
 end
 
 def reduce_to_all_true(arr)
-  return true if arr.all?{|ele| ele}
-  false
+  x = 0
+  while x < arr.length 
+    if arr[x]
+      x += 1 
+    else
+      return false
+    end
+  end
+  true 
 end
 
 def reduce_to_any_true(arr)
-  return true if arr.any?{|ele| ele}
-  false
+  x = 0
+  while x < arr.length 
+    if arr[x]
+      return true 
+    else
+      x += 1 
+    end
+  end
+  false 
 end
