@@ -14,7 +14,7 @@ end
 def map_to_no_change(arr)
    x = 0
   while x < arr.length 
-   arr[x] *= -1 
+   
    x += 1 
   end
   arr
