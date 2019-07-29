@@ -50,7 +50,7 @@ def map_to_double(arr)
   arr
 end
 
-def reduce_to_total(arr, start)
+def reduce_to_total(arr, start = 0)
   start ||= arr.shift
    x = 0
   while x < arr.length 
