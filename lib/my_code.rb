@@ -1,6 +1,6 @@
 # My Code here....
 
-def map_to_negativize(arr, &prc)
+def map_to_negativize(arr)
   prc ||= {|ele| ele * -1}
   x = 0
   a = []
