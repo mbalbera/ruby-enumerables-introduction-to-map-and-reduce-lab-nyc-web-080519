@@ -6,6 +6,7 @@ def map_to_negativize(arr, &prc)
   a = []
   while x < arr.length 
    a << prc.call(arr[x])
+   x += 1 
   end
   a 
 end
