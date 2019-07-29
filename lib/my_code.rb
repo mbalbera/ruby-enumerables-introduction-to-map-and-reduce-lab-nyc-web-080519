@@ -42,11 +42,21 @@ def map_to_square(arr)
 end
 
 def map_to_double(arr)
-
   x = 0
   while x < arr.length 
    arr[x]*=2
    x += 1 
   end
   arr
+end
+
+def reduce_to_total(arr, start)
+  start ||= arr.shift
+   x = 0
+  while x < arr.length 
+   arr[x]*=2
+   x += 1 
+  end
+  arr
+  
 end
