@@ -54,9 +54,9 @@ def reduce_to_total(arr, start)
   start ||= arr.shift
    x = 0
   while x < arr.length 
-   arr[x]*=2
+   start += arr[x]
    x += 1 
   end
-  arr
+  start
   
 end
