@@ -65,3 +65,8 @@ def reduce_to_all_true(arr)
   return true if arr.all?{|ele| ele}
   false
 end
+
+def reduce_to_any_true(arr)
+  return true if arr.any?{|ele| ele}
+  false
+end
